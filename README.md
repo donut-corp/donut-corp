@@ -31,7 +31,7 @@ Donut defaults to the smallest viable quantization for each model and uses Q4 KV
 ## Install
 
 ```bash
-npm install -g donut-corp
+npm install -g @uncharted-ai/donut-corp
 ```
 
 **Requirements:**
