@@ -1,0 +1,53 @@
+{
+  "name": "donut-corp",
+  "version": "1.0.0",
+  "description": "🍩 Local LLM runtime optimized for minimal disk usage — run AI models locally without the bloat.",
+  "main": "src/index.js",
+  "bin": {
+    "donut": "./src/cli/index.js"
+  },
+  "scripts": {
+    "start": "node src/server/index.js",
+    "dev": "node --watch src/server/index.js",
+    "cli": "node src/cli/index.js"
+  },
+  "keywords": [
+    "llm",
+    "local-ai",
+    "ollama-alternative",
+    "gguf",
+    "quantization",
+    "privacy",
+    "offline-ai"
+  ],
+  "author": "Donut Corp",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "express": "^4.19.2",
+    "node-llama-cpp": "^3.1.1",
+    "ora": "^8.1.0",
+    "inquirer": "^10.1.8",
+    "cli-table3": "^0.6.5",
+    "node-fetch": "^3.3.2",
+    "progress": "^2.0.3",
+    "fs-extra": "^11.2.0",
+    "boxen": "^8.0.1",
+    "figures": "^6.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/donut-corp/donut-corp.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

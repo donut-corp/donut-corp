@@ -1,0 +1,16 @@
+# Development files
+*.test.js
+*.spec.js
+.env*
+.git/
+.github/
+coverage/
+node_modules/
+
+# Docs (keep README)
+docs/
+examples/
+
+# Build artifacts
+*.log
+*.part
